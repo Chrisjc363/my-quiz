@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//================ HERO =================
+
 class Hero
 {
 private:
@@ -59,7 +59,7 @@ public:
     }
 };
 
-//================ WARRIOR =================
+
 class Warrior : public Hero
 {
 private:
@@ -80,7 +80,7 @@ public:
     }
 };
 
-//================ ARCHER =================
+
 class Archer : public Hero
 {
 private:
@@ -101,7 +101,7 @@ public:
     }
 };
 
-//================ MAGE =================
+
 class Mage : public Hero
 {
 private:
@@ -122,7 +122,7 @@ public:
     }
 };
 
-//================ MAIN =================
+
 int main()
 {
     Warrior w1("Arthur",100,50,10,80);
@@ -134,7 +134,7 @@ int main()
     Mage m1("Merlin",80,70,15,200);
     Mage m2("Gandalf",85,75,16,250);
 
-    // Array of Hero pointers
+
     Hero* heroes[6] =
     {
         &w1,
